@@ -1,0 +1,384 @@
+@import 'element';
+@import 'globle';
+
+
+
+// Navibar styling
+.navbar-default{
+     background-color:transparent;
+     border:none;
+     .navbar-brand{
+         img{
+            position:relative;
+            top:-15px;
+            width:90%;
+        }
+     }
+     .nav{
+        position:relative;
+        top:10px;
+    }
+     .navbar-nav{
+         .active>a{
+            color:@green;           
+            background-color:transparent;//@light_blue;
+            text-decoration:underline;            
+            &:hover{
+                background-color:transparent;//@light_blue;
+                color:darken(@green,10%); 
+            }
+         }
+         li{
+         
+             a {
+                 color:darken(@blue,5%);
+                 font-size:1.3em;
+                 .transition-duration(0.5s);
+                // font-weight:bold;
+                 &:hover{
+                    color:@green;
+                 }
+                 &:active{
+                    color:@green;
+                }
+            }
+         }
+             
+     }
+     .m-active{
+         a{
+            color: green;
+            background-color: transparent;
+            text-decoration: underline;
+         }
+     }
+}
+
+// Promot Section
+.jumbotron{
+    background-size: cover;
+    background-image: url(../img/chamudu_villa.jpg);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    height:400px;
+    margin-bottom:0;
+    
+    #guest_house{
+        position:relative;
+        top:170px;
+        min-height: 80px;
+        width: 40%;
+        padding: initial;
+        padding:10px;
+        text-align:right;
+        background-color:rgba(55, 70, 93,0.7);
+        *{
+            display:inline-block;
+        }
+        
+        h2{
+            text-align:left;
+            display:block;
+            margin:0;
+            padding:0;
+            
+        }
+        
+    }
+}
+ p{
+        font-size: 1.2em;
+        line-height: 1.5;
+        text-align: justify;
+  }
+
+//welcome_to section
+
+h1.sec-head{
+    font-size: 1.8em;
+    text-align: center;   
+}
+.btn-default {
+    color: #fff;
+    background-color: @light_blue;
+    border-color: @light_blue;
+    padding:10px;
+    .transition-duration(0.5s);
+}
+#welcome_to{
+    background-color:@sec_blue;
+    padding-bottom:15px;    
+}
+#we_are_providing{
+    text-align:center;
+    padding-bottom:15px; 
+    p{
+       text-align:center; 
+    }
+    h2{
+        text-align:center;
+        display:block;
+    }
+    div{
+        
+        // border:1px solid red;
+    }
+    i.promo{   
+      cursor: pointer;
+      background-color:@light_blue;
+      width:140px;
+      height:140px;
+      margin-bottom:10px;
+      //display:table-cell;
+      padding-top:35px;    
+      .rounded(100%);
+      .transition-duration(0.5s);
+      &:hover{
+          
+         background-color:@green;
+         color:@light_blue;
+     }
+    }
+}
+
+.gallery{
+        cursor: pointer;
+        width:250px;
+        height:auto;
+        border:5px solid @dark_blue;
+        display:inline-block;
+        margin:5px;
+        background-color:@dark_blue;
+        overflow:hiddne;
+}
+
+//Gallery
+#gallery{    
+   padding:20px 0;
+   text-align:center;
+   .gallery{
+        .gallery;
+   }
+   
+}
+// HOME end -------------------------------------------------------
+
+// About us Page ----------------------------------------------------
+.img-thumbnail{
+    background-color :transparent;
+    border:2px solid @sec_blue;
+}
+#aboutUs{   
+    h1{
+        font-size:2em;
+        display:block;
+    }
+   
+    #about_owner{
+      
+          p{
+              max-width:600px;
+              position:relative;
+              top:50px;
+          }
+    }
+    #thanks{
+        h2{text-align:center;}
+    }
+    
+}
+// About us Page end ----------------------------------------------------
+
+
+
+// Services Page --------------------------------------------------------
+#why{
+    #top{
+        text-align:center; 
+        h1,p{display:block;text-align:center;}
+    }
+    
+    
+}
+.place{
+    width:260px;
+    border:3px solid @sec_blue;   
+    padding:5px;
+    margin:7px;
+    display:inline-block;
+    cursor: pointer;
+    .transition-duration(0.5s);
+    &:hover{
+        border:3px solid @green;
+    }
+    .rounded(10px);
+    img{
+        padding:5px;
+    }
+    h1{
+        font-size:1.5em;
+        display:block;
+        margin:0;padding:0;
+        text-align:center;
+        
+    }
+    span{
+        display:block;
+        padding:10px;
+        text-align:center;
+        font-size:1.2em;
+    }
+}
+// Services Page end -------------------------------------------------------
+
+
+
+
+// Contact Page ------------------------------------------------------------
+#iframe{
+    border: 5px solid #37465d;
+    padding: 0;
+    overflow: hidden;
+}
+.icomp{
+    display:inline-block;
+    padding:10px;
+    width:45%;
+   
+    label{
+        font-weight:lighter;
+    }
+    input{
+        width:100%;
+        border:1px solid @dark_blue;
+        background-color:@light_blue;
+        padding:5px;
+    }
+    textarea{
+        border:1px solid @dark_blue;
+        background-color:@light_blue;
+    }
+}
+
+
+// Contact Page end -------------------------------------------------------
+
+
+
+// Footer
+footer{
+    
+    padding:20px 0 0 0;
+    margin:0;
+    position:relative;
+
+    #footer-logo{
+        padding-top:20px;
+        text-align:center;
+    }
+
+    #nav,#address{
+        list-style:none;
+        margin:0;padding:0;
+        padding-top:5px;      
+        li{
+            display:block;
+            margin:5px;
+            text-align:center;
+            a{color:@light_blue;font-size:1.2em;}
+        }
+    }
+    #address{        
+        li{
+            display:block;
+            //border:1px solid red;
+            text-align:center;
+            color:#fff;
+            font-size:1.2em;
+        }
+    }
+    #copy{
+       
+        border-top:1px solid @sec_blue;
+        color:@light_blue;
+        margin-top:10px;
+        padding:10px 0 10px 0;
+        font-size:1.2em;
+        display:block;
+        text-align:center;  
+    }
+
+}
+
+//MEDIA QUERIES
+@media(max-width:768px){ 
+    
+    #aboutUs{        
+       
+       #about_owner{
+           .gallery{
+                width:100%;
+           }
+           img{
+                margin:0 auto;
+                width:30%;
+           }
+          p{
+              max-width:none;              
+              text-align:center; 
+              top:0;
+          }
+       }
+    
+    }
+   
+     #guest_house{
+          h2{
+            text-align:center;;
+          }
+         
+         *{
+             display:block;
+             text-align:center;
+         }
+     }
+      .navbar-default{             
+            .navbar-nav li a {
+                 text-align:center;             
+            }
+             .navbar-brand{
+                 img{                
+                    top:0px;
+                    width:80%;
+                }
+             }
+      }
+      .container {
+           .navbar-header,.collapse,.collapsing{                
+                border: none;
+                padding-bottom:18px;
+                margin-top:0;               
+           }
+           .navbar-header{
+               button{
+                    position:relative;
+                    top:15px;
+               }
+               li a{
+                    text-align:center;
+                }
+           }
+           
+       }
+       
+       footer #footer-logo{
+            img{
+                margin:0 auto;
+            }
+       }
+       
+        
+}
+    
+
+

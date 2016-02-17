@@ -1,0 +1,41 @@
+// Colors
+@blue:#2980b9;
+@dark_blue : #020811;
+@mid_blue  : #0d1521;
+@light_blue : #37465d;
+@sec_blue:darken(@light_blue,10%);
+@green : #9dc02e;
+
+.sec_default{
+    background-color:@sec_blue;
+    padding:20px 0;
+}
+.sec_dark{
+    background-color:@dark_blue;
+    padding:20px 0;
+}
+
+.debug(){
+    border:1px solid red;
+}
+.center{
+    text-align:center;
+}
+
+body{
+    background-color:@dark_blue;
+    color:#fff;
+    margin:0;padding:0;
+}
+div{
+    background-color:transparent;
+}
+
+h1{
+    color: @green;
+    font-size:1.8em;
+}
+
+span.hl{
+    color:@green;
+}

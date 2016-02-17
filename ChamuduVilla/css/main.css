@@ -1,0 +1,347 @@
+/* CSS crunched with Crunch - http://crunchapp.net/ */
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+.sec_default {
+  background-color: #242e3d;
+  padding: 20px 0;
+}
+.sec_dark {
+  background-color: #020811;
+  padding: 20px 0;
+}
+.center {
+  text-align: center;
+}
+body {
+  background-color: #020811;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+div {
+  background-color: transparent;
+}
+h1 {
+  color: #9dc02e;
+  font-size: 1.8em;
+}
+span.hl {
+  color: #9dc02e;
+}
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+.navbar-default .navbar-brand img {
+  position: relative;
+  top: -15px;
+  width: 90%;
+}
+.navbar-default .nav {
+  position: relative;
+  top: 10px;
+}
+.navbar-default .navbar-nav .active > a {
+  color: #9dc02e;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.navbar-default .navbar-nav .active > a:hover {
+  background-color: transparent;
+  color: #7b9724;
+}
+.navbar-default .navbar-nav li a {
+  color: #2472a4;
+  font-size: 1.3em;
+  -moz-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.navbar-default .navbar-nav li a:hover {
+  color: #9dc02e;
+}
+.navbar-default .navbar-nav li a:active {
+  color: #9dc02e;
+}
+.navbar-default .m-active a {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.jumbotron {
+  background-size: cover;
+  background-image: url(../img/chamudu_villa.jpg);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  height: 400px;
+  margin-bottom: 0;
+}
+.jumbotron #guest_house {
+  position: relative;
+  top: 170px;
+  min-height: 80px;
+  width: 40%;
+  padding: initial;
+  padding: 10px;
+  text-align: right;
+  background-color: rgba(55, 70, 93, 0.7);
+}
+.jumbotron #guest_house * {
+  display: inline-block;
+}
+.jumbotron #guest_house h2 {
+  text-align: left;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  text-align: justify;
+}
+h1.sec-head {
+  font-size: 1.8em;
+  text-align: center;
+}
+.btn-default {
+  color: #fff;
+  background-color: #37465d;
+  border-color: #37465d;
+  padding: 10px;
+  -moz-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+#welcome_to {
+  background-color: #242e3d;
+  padding-bottom: 15px;
+}
+#we_are_providing {
+  text-align: center;
+  padding-bottom: 15px;
+}
+#we_are_providing p {
+  text-align: center;
+}
+#we_are_providing h2 {
+  text-align: center;
+  display: block;
+}
+#we_are_providing i.promo {
+  cursor: pointer;
+  background-color: #37465d;
+  width: 140px;
+  height: 140px;
+  margin-bottom: 10px;
+  padding-top: 35px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  -moz-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+#we_are_providing i.promo:hover {
+  background-color: #9dc02e;
+  color: #37465d;
+}
+.gallery {
+  cursor: pointer;
+  width: 250px;
+  height: auto;
+  border: 5px solid #020811;
+  display: inline-block;
+  margin: 5px;
+  background-color: #020811;
+  overflow: hiddne;
+}
+#gallery {
+  padding: 20px 0;
+  text-align: center;
+}
+#gallery .gallery {
+  cursor: pointer;
+  width: 250px;
+  height: auto;
+  border: 5px solid #020811;
+  display: inline-block;
+  margin: 5px;
+  background-color: #020811;
+  overflow: hiddne;
+}
+.img-thumbnail {
+  background-color: transparent;
+  border: 2px solid #242e3d;
+}
+#aboutUs h1 {
+  font-size: 2em;
+  display: block;
+}
+#aboutUs #about_owner p {
+  max-width: 600px;
+  position: relative;
+  top: 50px;
+}
+#aboutUs #thanks h2 {
+  text-align: center;
+}
+#why #top {
+  text-align: center;
+}
+#why #top h1,
+#why #top p {
+  display: block;
+  text-align: center;
+}
+.place {
+  width: 260px;
+  border: 3px solid #242e3d;
+  padding: 5px;
+  margin: 7px;
+  display: inline-block;
+  cursor: pointer;
+  -moz-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.place:hover {
+  border: 3px solid #9dc02e;
+}
+.place img {
+  padding: 5px;
+}
+.place h1 {
+  font-size: 1.5em;
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.place span {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.2em;
+}
+#iframe {
+  border: 5px solid #37465d;
+  padding: 0;
+  overflow: hidden;
+}
+.icomp {
+  display: inline-block;
+  padding: 10px;
+  width: 45%;
+}
+.icomp label {
+  font-weight: lighter;
+}
+.icomp input {
+  width: 100%;
+  border: 1px solid #020811;
+  background-color: #37465d;
+  padding: 5px;
+}
+.icomp textarea {
+  border: 1px solid #020811;
+  background-color: #37465d;
+}
+footer {
+  padding: 20px 0 0 0;
+  margin: 0;
+  position: relative;
+}
+footer #footer-logo {
+  padding-top: 20px;
+  text-align: center;
+}
+footer #nav,
+footer #address {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+}
+footer #nav li,
+footer #address li {
+  display: block;
+  margin: 5px;
+  text-align: center;
+}
+footer #nav li a,
+footer #address li a {
+  color: #37465d;
+  font-size: 1.2em;
+}
+footer #address li {
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-size: 1.2em;
+}
+footer #copy {
+  border-top: 1px solid #242e3d;
+  color: #37465d;
+  margin-top: 10px;
+  padding: 10px 0 10px 0;
+  font-size: 1.2em;
+  display: block;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  #aboutUs #about_owner .gallery {
+    width: 100%;
+  }
+  #aboutUs #about_owner img {
+    margin: 0 auto;
+    width: 30%;
+  }
+  #aboutUs #about_owner p {
+    max-width: none;
+    text-align: center;
+    top: 0;
+  }
+  #guest_house h2 {
+    text-align: center;
+  }
+  #guest_house * {
+    display: block;
+    text-align: center;
+  }
+  .navbar-default .navbar-nav li a {
+    text-align: center;
+  }
+  .navbar-default .navbar-brand img {
+    top: 0px;
+    width: 80%;
+  }
+  .container .navbar-header,
+  .container .collapse,
+  .container .collapsing {
+    border: none;
+    padding-bottom: 18px;
+    margin-top: 0;
+  }
+  .container .navbar-header button {
+    position: relative;
+    top: 15px;
+  }
+  .container .navbar-header li a {
+    text-align: center;
+  }
+  footer #footer-logo img {
+    margin: 0 auto;
+  }
+}
